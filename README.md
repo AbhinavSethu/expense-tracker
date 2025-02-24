@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Expense Tracker
 
-## Getting Started
+An advanced Expense Tracker built with Next.js that helps users manage and track their expenses efficiently.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- User authentication (Sign up, Login, Logout)
+- Add, edit, and delete expenses
+- Categorize expenses (Food, Travel, Bills, etc.)
+- View expense summary with charts
+- Responsive UI with Tailwind CSS
+- Dark mode support
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Next.js** - React framework for server-side rendering and static site generation
+- **Tailwind CSS** - Styling framework for a sleek design
+- **NextAuth.js** - Authentication
+- **Recharts** - For data visualization
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Prerequisites
+- Node.js (>=16.0.0)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Steps to Run Locally
 
-## Learn More
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/expense-tracker.git
+   cd expense-tracker
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the development server:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+   The app will be available at `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+The app can be deployed on platforms like Vercel. Follow these steps:
+
+1. Push the project to GitHub/GitLab.
+2. Connect the repository to Vercel.
+3. Set up environment variables in Vercel.
+4. Deploy the project.
+
+## Screenshots
+
+_Add screenshots of the UI to showcase the application._
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
